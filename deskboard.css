@@ -1,0 +1,40 @@
+.box{
+    height: 300px;
+    width: 500px;
+   
+    border: 2px solid black;
+    border-radius: 8px;
+}
+.circle{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top:150px;
+    left:300px
+}
+.line{
+    position:absolute;
+    top: 35%;
+
+}
+.dot{
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 49.5%;
+    left: 50%;
+    background-color: black;
+}
+
+.inclined-line2{
+  width: 100px;
+  height: 2px;
+  background-color: black;
+  transform: rotate(45deg);
+
+    
+}

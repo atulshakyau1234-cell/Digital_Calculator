@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Alpha Task 1</title>
+    <link rel="stylesheet" href="codeAlpha1.css">
+
+</head>
+<body>
+    <header>
+        <h1>My Image Gallery</h1>
+        <p> Responsive Image Gallery using HTML, CSS &  JavaScript</p>
+    </header>
+
+    <!-- Filter buttons-->
+
+    <div class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="city">City</button>
+        <button class="filter-btn" data-filter="animals">Animals</button>
+    </div>
+    
+    
+
+    <main class="gallery">
+
+        <div class="gallery-item" data-catagory="nature">
+            <img src="nature.jpg" alt="Nature" data-index="0">
+        </div>
+
+        <div class="gallery-item" data-catagory="city">
+            <img src="city.jpg" alt="City" data-index="1">
+        </div>
+
+        <div class="gallery-item" data-catagory="animals">
+            <img src="animals.jpeg" alt="Animals" data-index="2">
+        </div>
+
+        <div class="gallery-item" data-catagory="nature">
+            <img src="nature2.jpg" alt="mountain" data-index="3">
+        </div>
+
+        <div class="gallery-item" data-catagory="city">
+            <img src="city2.jpg" alt="City View" data-index="4">
+        </div>
+
+        <div class="gallery-item" data-catagory="animals">
+            <img src="animal2.jpeg" alt="Animals" data-index="5">
+        </div>
+
+         <div class="gallery-item" data-catagory="nature">
+            <img src="nature3.jpg" alt="mountain" data-index="6">
+        </div>
+
+         <div class="gallery-item" data-catagory="nature">
+            <img src="nature4.jpg" alt="mountain" data-index="7">
+         </div>
+
+    </main>
+
+    <div class="lightbox" id="lightbox">
+        <span class="close" id="close">&times;</span>
+        <button class="prev" id="prev">&#10094;</button> 
+        <img id="lightox-img" src=" " alt="Preview">
+        <button class="next" id="next">&#10095;</button>
+        <div class="caption" id="caption"></div>
+    </div>
+
+     
+   
+    <footer>
+        <p>Created for CodeAlpha Internship</p>
+    </footer>
+
+    <script src="codeAlpha1.js"></script>
+</body>
+</html>
+
+
+
+

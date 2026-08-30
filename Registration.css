@@ -1,0 +1,37 @@
+.btn2{
+    background-color:rgb(178, 201, 178);
+    position: absolute;
+    left: 40%;
+    top: 65%;
+    box-shadow: 2px 2px 5px gray;
+    
+}
+.btn1{
+    background-color: rgb(204, 194, 194);
+    box-shadow: 2px 1px 2px gray;
+}
+.btn2:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 10px black;
+}
+.btn1:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 2px 4px black;
+}
+.chec:hover{
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 1px  gray;
+}
+.rad:hover{
+    transform: scale(1.1);
+}
+#box:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 2px 5px black;
+  
+}
+#box{
+    color:black;
+}
+
